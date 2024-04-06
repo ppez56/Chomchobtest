@@ -1,0 +1,432 @@
+{
+	"id": "80d2c966-a6f0-4d87-9520-a3e5108d7f28",
+	"name": "ChomChob Section3: Tanyapat Sowcharoensuk",
+	"timestamp": "2024-04-06T11:02:55.586Z",
+	"collection_id": "32721320-774f3195-bbb1-45eb-b2de-b78d8c78fcb7",
+	"folder_id": 0,
+	"environment_id": "32721320-0bd403d2-1875-4bf6-a398-2ec10162303a",
+	"totalPass": 100,
+	"delay": "100",
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-04-06T11:02:35.291Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "652b0760-def6-4024-bc51-b87844bfa57f",
+			"name": "GET - All Users",
+			"url": "https://reqres.in/api/users",
+			"time": 51,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 1000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				49,
+				54,
+				40,
+				36,
+				77,
+				40,
+				34,
+				40,
+				36,
+				51
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true
+				}
+			]
+		},
+		{
+			"id": "14f7c13f-bc7f-4398-952a-d76d856f281c",
+			"name": "GET - User Info",
+			"url": "https://reqres.in/api/users/1",
+			"time": 49,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 1000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				36,
+				40,
+				35,
+				49,
+				34,
+				45,
+				38,
+				36,
+				37,
+				49
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true
+				}
+			]
+		},
+		{
+			"id": "4e01fb9b-572c-4213-af74-c66619f6049d",
+			"name": "POST - Create User :",
+			"url": "https://reqres.in/api/users",
+			"time": 447,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true,
+				"Response time is less than 1000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				429,
+				429,
+				445,
+				432,
+				440,
+				427,
+				426,
+				428,
+				423,
+				447
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 201": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 201": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 201": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 201": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 201": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 201": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 201": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 201": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 201": true,
+					"Response time is less than 1000ms": true
+				}
+			]
+		},
+		{
+			"id": "59566a42-3f9b-473e-9096-204249a7aea6",
+			"name": "PATCH - Update User",
+			"url": "https://reqres.in/api/users/334",
+			"time": 428,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 1000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				444,
+				430,
+				444,
+				426,
+				428,
+				445,
+				422,
+				428,
+				430,
+				428
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time is less than 1000ms": true
+				}
+			]
+		},
+		{
+			"id": "1bf1c357-78c4-452a-b78c-93e93b11c39d",
+			"name": "New Request",
+			"url": "https://reqres.in/api/users/334",
+			"time": 424,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status code is 204": true,
+				"Response time is less than 1000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Response time is less than 1000ms": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				435,
+				433,
+				426,
+				431,
+				421,
+				432,
+				432,
+				424,
+				422,
+				424
+			],
+			"allTests": [
+				{
+					"Status code is 204": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 204": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 204": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 204": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 204": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 204": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 204": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 204": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 204": true,
+					"Response time is less than 1000ms": true
+				},
+				{
+					"Status code is 204": true,
+					"Response time is less than 1000ms": true
+				}
+			]
+		}
+	],
+	"count": 10,
+	"totalTime": 13787,
+	"collection": {
+		"requests": [
+			{
+				"id": "652b0760-def6-4024-bc51-b87844bfa57f",
+				"method": "GET"
+			},
+			{
+				"id": "14f7c13f-bc7f-4398-952a-d76d856f281c",
+				"method": "GET"
+			},
+			{
+				"id": "4e01fb9b-572c-4213-af74-c66619f6049d",
+				"method": "POST"
+			},
+			{
+				"id": "59566a42-3f9b-473e-9096-204249a7aea6",
+				"method": "PATCH"
+			},
+			{
+				"id": "1bf1c357-78c4-452a-b78c-93e93b11c39d",
+				"method": "DELETE"
+			}
+		]
+	}
+}
